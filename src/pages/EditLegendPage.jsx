@@ -41,7 +41,7 @@ const EditLegendPage = () => {
   return (
     <div className="max-w-3xl mx-auto p-6">
       <h2 className="text-2xl font-bold mb-4">Editar leyenda</h2>
-      <LegendForm legend={legend} onSubmit={handleUpdate} isEdit />
+      <LegendForm initialData={legend} onSubmit={handleUpdate} isEdit />
     </div>
   );
 };
